@@ -6,6 +6,9 @@ import { PublicComponent } from './public.component';
 import { PublicRoutingModule } from "./public-routing.module";
 import { RouterModule } from "@angular/router";
 import { WelcomeModule } from "./welcome/welcome.module";
+import {AboutModule} from "./about/about.module";
+import {SignInModule} from "./sign-in/sign-in.module";
+import {SignUpModule} from "./sign-up/sign-up.module";
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { WelcomeModule } from "./welcome/welcome.module";
     CommonModule,
     PublicRoutingModule,
     WelcomeModule,
+    AboutModule,
+    SignInModule,
+    SignUpModule,
     RouterModule
   ]
 })

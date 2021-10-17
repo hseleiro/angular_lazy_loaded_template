@@ -1,0 +1,21 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-template-areas:
+   "navigation navigation navigation navigation"
+  ". . . ."
+  ". . . ."
+  ". mainContainer mainContainer ."
+  ". . . ."
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.main-container {
+  grid-area: mainContainer;
+  align-self: center;
+  justify-self: center;
+}
